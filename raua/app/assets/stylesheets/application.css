@@ -1,0 +1,50 @@
+/*
+ * This is a manifest file that'll be compiled into application, which will include all the files
+ * listed below.
+ *
+ * Any CSS and SCSS file within this directory, lib/stylesheets, vendor/stylesheets,
+ * or vendor/stylesheets of plugins, if any, can be referenced here using a relative path.
+ *
+ * You're free to add application-wide styles to this file and they'll appear at the top of the
+ * compiled file, but it's generally better to create a new file per style scope.
+ *
+ *= require bootstrap
+ *= require comments
+ *= require font-awesome
+ *= require magnific-popup
+ *= require ndoboost.min
+ *= require owl.carousel
+ *= require owl.theme
+ *= require owl.transitions
+ *= require style-1.0.1-patch
+ *= require style-1.0.1-patch
+ *= require style-documentation
+ *= require style-responsive
+ *= require style
+ *= require users
+ *= require_self
+ 
+ *= require_tree .
+
+*= require prettify/prettify.min
+*= require magnific-popup/magnific-popup.min
+*= require owl-carousel/owl.carousel.min
+*= require owl-carousel/owl.theme.min
+*= require owl-carousel/owl.transitions.min
+*= require chosen/chosen.min
+*= require icheck/skins/all
+*= require datepicker/datepicker.min
+*= require timepicker/bootstrap-timepicker.min
+*= require validator/bootstrapValidator.min
+*= require summernote/summernote.min
+*= require markdown/bootstrap-markdown.min
+*= require datatable/css/bootstrap.datatable.min
+*= require morris-chart/morris.min
+*= require c3-chart/c3.min
+*= require slider/slider.min
+*= require salvattore/salvattore
+
+*= require fullcalendar/fullcalendar/fullcalendar
+*= require fullcalendar/fullcalendar/fullcalendar.print 
+
+ */

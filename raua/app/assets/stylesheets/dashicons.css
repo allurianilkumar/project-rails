@@ -1,0 +1,7 @@
+.myicon:before {
+content: "\2605";
+display: inline-block;
+-webkit-font-smoothing: antialiased;
+font: normal 20px/1 'dashicons';
+vertical-align: top;
+}
